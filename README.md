@@ -1,7 +1,7 @@
 Run the spotapi application from project root directory run : mvn spring-boot:run
 This will start the rest service in localhost at 5000 and can be accesses by swagger ui or postman.
 
-At startup the application reads the rates json file in command line runner to a singleton java class.
+At startup the application reads the rates json file in command line runner to a singleton java class. In application.yml json.path is  C:\\datafile\\rates.json, so the initial rates.json should be placed in the specified location.
 
 1. Swagger UI provided:
 http://localhost:5000/swagger-ui.html
