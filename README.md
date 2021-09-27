@@ -1,4 +1,4 @@
-Unzip and from project root directory run : mvn spring-boot:run
+Run the spotapi application from project root directory run : mvn spring-boot:run
 This will start the rest service in localhost at 5000 and can be accesses by swagger ui or postman.
 
 At startup the application reads the rates json file in command line runner to a singleton java class.
