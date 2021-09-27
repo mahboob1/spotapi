@@ -1,0 +1,11 @@
+server:
+  port: 5000
+
+json:
+  path: C:\\datafile\\rates.json
+  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*" 
